@@ -1,0 +1,242 @@
+
+/* ESTILO GERAL DO SITE */ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+h2.titulo{
+    font-size: 39px;
+    line-height: 40px;
+}
+
+h2.titulo span{
+    color:#86b298;
+    font-size: 48px;
+}
+
+p.destaque span{
+    color: #86b298;
+    font-weight: bold;
+}
+
+/* ESTILO DA BARRA DE NAVEGAÇÃO */
+header{
+    padding: 40px 4%;
+    background-color: #86b298;
+    z-index: 12;
+    width: 100%;
+    height: 120px;
+    position: fixed;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #000000;
+    font-size: 24px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header a:hover{
+    color: #ffffff;
+    transform: scale(1.08);
+    transition: .2s;    
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 30;
+}
+
+/* ESITLO TOPO DO SITE */
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    margin-top: 140px;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    font-size: 44px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site h1 span{
+    color: #86b298;
+    font-size: 50px;
+}
+
+.topo-do-site .txt-topo-site p{
+    margin: 40px 0;
+    font-size: 25px;
+}
+
+/* ESTILO HABILIDADES */
+section.habilidades{
+    padding: 40px 4%;
+}
+
+section.habilidades .flex{
+    gap: 45px;
+}
+
+.habilidades .habilidades-box{
+    padding: 40px;
+    border: 1px solid #aeaeae;
+    margin-top: 25px;
+    border-radius: 10px;
+    transition: .2s;
+    word-break: normal;
+}
+
+.habilidades .habilidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 6px #00000070;
+}
+
+.habilidades .habilidades-box h3{
+    font-size: 25;
+    margin: 15px 0;
+    text-align: center; 
+}
+
+.habilidades .habilidades-box p{
+    margin: 0px 0;
+}
+
+/* ESTILO PROJETOS */
+section.projetos{
+    padding: 80px 4%;
+}
+
+section.projetos .flex{
+    padding: 20px;
+    justify-content: space-around;
+    border: 1px solid #aeaeae;
+    border-radius: 10px;
+    margin-top: 25px;
+    gap: 20px;
+    transition: .2s;
+}
+
+section.projetos .flex:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 6px #00000070;
+}
+
+.projetos .txt-projetos h3{
+    text-align: center;
+    font-size: 35px;
+}
+
+.projetos .txt-projetos p{
+    font-size: 25;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.projetos .img-git{
+    margin-top: 10px;
+    text-align: center;
+    transition: .2s;
+}
+
+.projetos .img-git img:hover{
+    transform: scale(1.07);
+}
+
+.projetos .frase{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* ESTILO CONTATOS */
+footer{
+    margin-top: 50px;
+    padding: 40px 4%;
+    background-color: #86b298;
+    box-shadow: 0 0 40px 10px #86b298b7;
+}
+
+footer .flex{
+    justify-content: space-around;
+
+}
+
+.logo-footer{
+    font-size: 30px;
+}
+
+.socials-logos button{
+    width: 60px;
+    height: 60px;
+    border: none;
+    font-size: 55px;
+    background-color: #86b298;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.socials-logos button:hover{
+    transform: scale(1.07);
+}
+
+footer .line-footer{
+    margin-top: 5px;
+}
+
+footer .socials{
+    padding: 10px;
+    background-color: #86b298;
+
+}
+
+footer .socials p img{
+    color:#000000;
+    font-size: 22px;
+    background-color: #86b298;
+    cursor: pointer;
+}
+
+footer .socials p a{
+    margin-left: 10px;
+    text-align: center;
+    font-size: 23px;
+    color: #000000;
+    background-color: #86b298;
+    float: inline-end;
+}
+
+
+
+
